@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tag</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(73, 71, 71);
+
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        nav{
+            background-color: rgb(141, 137, 137);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgb(0, 0, 0, 0.315);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+           
+        }
+        nav > a:hover {
+            text-decoration:underline ;
+        }
+        main{
+        padding: 10px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 4px 4px 9px 0px rgb(0, 0, 0, 0.315);
+        }
+
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+            
+        }
+        article > aside{
+            background-color: rgb(102, 102, 102);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Menu</a>
+            <a href="#">Notícias</a>
+            <a href="#">Assinatura</a>
+            <a href="#">Suporte</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assusntos">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem excepturi consequuntur odio, dolore mollitia assumenda impedit quidem iusto voluptatem non, quasi, autem minima perferendis nihil sunt iste aperiam distinctio sit.</p>
+        </section>
+        <section id="noticias"></section>
+        <article>
+            <h2>Notícia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur culpa quae autem modi ut, nostrum sint ipsum adipisci et doloremque, magni reiciendis, doloribus fugiat eius neque sunt tenetur. Dolore.</p>
+                <aside>Artigo escrito por Lucas</aside>
+        </article>
+        <article>
+
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+    
+</body>
+</html>
