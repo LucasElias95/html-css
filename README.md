@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora a gerenciar meu repositório
 
-<a href="https://lucaselias95.github.io/html-css/Modulo%202/Desafio%2010/desafio.html">https://lucaselias95.github.io/html-css/Modulo%202/Desafio%2010/desafio.html</a> Executar desafio 10 (página sobre android)
+<a href="https://lucaselias95.github.io/html-css/Modulo%202/Desafio%2010/desafio.html">Executar desafio 10 (página sobre android)</a>
